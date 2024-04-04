@@ -1,0 +1,25 @@
+Análise Técnica do Preço do Bitcoin
+
+Este projeto realiza uma análise técnica abrangente do preço do Bitcoin ao longo do tempo, visando fornecer insights valiosos sobre o comportamento do mercado. A análise inclui a visualização do fechamento diário do Bitcoin, bem como a aplicação de indicadores técnicos-chave para entender melhor as tendências e a volatilidade.
+
+Principais Elementos:
+
+Gráfico de Linhas do Fechamento Diário:
+Apresenta uma visualização clara e detalhada do preço de fechamento diário do Bitcoin ao longo do período analisado.
+Médias Móveis:
+Inclui médias móveis de curto prazo (5 dias) e longo prazo (30 dias) para identificar tendências e suavizar variações de curto prazo.
+
+Bandas de Bollinger:
+Integra Bandas de Bollinger para avaliar a volatilidade do mercado, com destaque para pontos de sobrecompra e sobrevenda.
+
+Relative Strength Index (RSI):
+Incorpora o RSI para mensurar a força e a direção das mudanças nos preços, identificando possíveis áreas de reversão de tendência.
+
+Moving Average Convergence Divergence (MACD):
+Utiliza o MACD para avaliar o momentum do mercado, destacando a convergência e divergência de médias móveis.
+Objetivo:
+Este projeto tem como objetivo oferecer uma visão abrangente do comportamento do preço do Bitcoin, capacitando investidores, analistas e entusiastas a tomarem decisões mais informadas. A combinação de gráficos interativos e indicadores técnicos proporciona uma compreensão mais profunda das dinâmicas do mercado de criptomoedas.
+
+Observação:
+Os indicadores técnicos utilizados não garantem resultados específicos e devem ser interpretados como ferramentas auxiliares na análise de dados financeiros. E a interpretação dos resultados pode variar com base nas condições do mercado.
+
