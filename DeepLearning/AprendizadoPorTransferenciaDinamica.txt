@@ -1,0 +1,11 @@
+Aprendizado por Transferência Dinâmica:
+
+Aprendizado de Transferência Incremental:
+
+O que é: No aprendizado de transferência incremental, um modelo é treinado em várias tarefas ao longo do tempo, e o conhecimento adquirido em tarefas anteriores é transferido para acelerar o aprendizado em tarefas subsequentes.
+Como funciona: O modelo inicial é treinado em uma tarefa base, e então, à medida que novas tarefas são introduzidas, o modelo é adaptado para cada nova tarefa, incorporando o conhecimento anterior.
+Benefícios: Permite a aprendizagem contínua e evita a necessidade de treinar modelos do zero para cada nova tarefa.
+Adaptação de Domínio:
+
+O que é: Adaptação de domínio refere-se ao processo de ajustar um modelo treinado em um domínio de origem para que ele possa realizar bem em um domínio de destino, mesmo quando há diferenças nas distribuições dos dados entre os dois domínios.
+Como funciona: Pode envolver técnicas como reajuste dos pesos do modelo, minimização de divergências entre distribuições, ou outras estratégias para tornar o modelo mais robusto às variações nos dados.

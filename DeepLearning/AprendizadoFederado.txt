@@ -1,0 +1,9 @@
+Aprendizado Federado:
+
+Treinamento de Modelos em Dados Distribuídos sem Centralização:
+O que é: O Aprendizado Federado é uma abordagem onde modelos são treinados em dispositivos locais (por exemplo, em smartphones ou servidores locais), e os parâmetros do modelo são agregados globalmente sem a necessidade de centralizar os dados.
+Como funciona: Os modelos são treinados localmente nos dispositivos dos usuários, e apenas os pesos do modelo são compartilhados e agregados globalmente, mantendo os dados no local. Isso preserva a privacidade dos dados enquanto permite o treinamento de um modelo global.
+Vantagens:
+Privacidade Preservada: Os dados permanecem nos dispositivos locais, evitando a necessidade de compartilhamento centralizado.
+Eficiência em Redes com Restrição de Largura de Banda: Reduz a necessidade de transferir grandes quantidades de dados pela rede, tornando-o eficiente em termos de largura de banda.
+O Aprendizado por Transferência Dinâmica, Aprendizado de Transferência Incremental e Aprendizado Federado são todas abordagens valiosas para enfrentar desafios específicos em aprendizado de máquina. O Aprendizado de Transferência Incremental é útil para aprendizado contínuo, a Adaptação de Domínio ajuda a lidar com mudanças nas distribuições dos dados, e o Aprendizado Federado aborda questões de privacidade e eficiência em ambientes distribuídos.

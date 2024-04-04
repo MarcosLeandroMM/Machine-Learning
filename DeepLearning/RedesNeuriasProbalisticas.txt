@@ -1,0 +1,10 @@
+Redes Neurais Probabilísticas:
+
+O que são: Redes Neurais Probabilísticas (PNs) são redes neurais que incluem elementos probabilísticos em sua arquitetura. Elas podem modelar incertezas nos dados e nos parâmetros do modelo.
+Como funcionam: Em vez de gerar previsões determinísticas, as PNs geram distribuições de probabilidade sobre as saídas. Isso permite representar e manipular incertezas de maneira mais rica.
+Aplicações: As PNs são usadas em tarefas onde a incerteza é crucial, como previsão de séries temporais com intervalos de confiança e em ambientes onde a aleatoriedade desempenha um papel significativo.
+
+Inferência Bayesiana Variacional:
+O que é: Um método para realizar inferência bayesiana aproximada em modelos complexos, como redes neurais, através da otimização de uma distribuição aproximada mais simples.
+Como funciona: A ideia é encontrar a distribuição mais próxima possível à verdadeira distribuição a posteriori, tornando o problema de inferência mais tratável computacionalmente.
+Vantagens: Permite incorporar incerteza nos modelos de aprendizado de máquina, facilita o treinamento de redes neurais probabilísticas e lida com a complexidade computacional associada à inferência exata.

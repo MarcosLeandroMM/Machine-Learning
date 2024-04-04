@@ -1,0 +1,21 @@
+1. Backpropagation:
+Definição:
+Backpropagation, ou retropropagação, é um algoritmo fundamental utilizado para treinar redes neurais. Ele é utilizado para ajustar os pesos da rede de acordo com os erros de previsão. O processo envolve a propagação do erro da camada de saída para as camadas anteriores, ajustando os pesos com base nessas informações de erro.
+
+Principais Etapas:
+
+Feedforward:
+
+Os dados de entrada são alimentados na rede, e as previsões são calculadas passo a passo, camada por camada, até a camada de saída.
+Cálculo do Erro:
+
+Compara-se a saída prevista com os rótulos reais para calcular o erro da rede. Uma função de perda, como a Mean Squared Error (MSE) para regressão ou a Cross-Entropy Loss para classificação, é comumente utilizada.
+Backward Pass (Retropropagação):
+
+O erro calculado é propagado de volta através da rede, começando pela última camada e movendo-se em direção à camada de entrada.
+Os gradientes em relação aos pesos são calculados usando a regra da cadeia.
+Atualização dos Pesos:
+
+Os pesos da rede são ajustados usando uma técnica de otimização, como o Gradiente Descendente, que busca minimizar a função de perda.
+Importância:
+Backpropagation é essencial para o treinamento eficaz de redes neurais profundas. Ele permite que a rede aprenda a representação dos dados, ajustando os pesos de forma iterativa com o objetivo de minimizar a diferença entre as previsões e os rótulos reais.

@@ -1,0 +1,36 @@
+Transfer Learning:
+Definição:
+Transfer Learning refere-se à técnica de treinar modelos em uma tarefa e, em seguida, reutilizar esses modelos treinados em uma tarefa relacionada. Em vez de treinar um modelo do zero, o conhecimento adquirido em uma tarefa é transferido para melhorar o desempenho em outra tarefa.
+
+Principais Componentes:
+
+Modelo Pré-treinado:
+
+Um modelo é treinado em uma tarefa mais genérica ou em um conjunto de dados grande (por exemplo, treinamento em uma grande coleção de imagens para reconhecimento de objetos).
+Transferência de Conhecimento:
+
+Os pesos aprendidos durante o treinamento inicial são transferidos para um novo modelo destinado a uma tarefa relacionada.
+Adaptação Fina (Fine-tuning):
+
+O modelo pré-treinado é ajustado para a tarefa específica usando um conjunto de dados menor e relevante.
+Vantagens:
+
+Economia de Recursos: O treinamento do zero pode ser computacionalmente caro. O Transfer Learning permite aproveitar modelos treinados em grandes conjuntos de dados.
+
+Melhoria do Desempenho: O conhecimento prévio pode melhorar significativamente o desempenho, especialmente quando há poucos dados disponíveis para a tarefa específica.
+
+Estratégias:
+
+Feature Extraction: Usar camadas mais profundas da rede pré-treinada como extratores de características.
+
+Fine-tuning: Ajustar as camadas mais próximas à saída para a nova tarefa, mantendo as camadas iniciais mais estáveis.
+
+Aplicações:
+Transfer Learning é comumente usado em visão computacional (por exemplo, usando modelos treinados no ImageNet) e processamento de linguagem natural.
+
+Ambos, Backpropagation e Transfer Learning, são conceitos cruciais que desempenham papéis significativos no treinamento eficaz e na aplicação prática de redes neurais.
+
+
+
+
+

@@ -1,0 +1,14 @@
+Aprendizado por Reforço Avançado:
+
+Políticas Contínuas:
+
+O que são: Em Aprendizado por Reforço, uma política é uma estratégia que o agente utiliza para tomar decisões. Políticas contínuas lidam com espaços de ação contínuos, o que significa que o agente pode escolher ações em um intervalo contínuo em vez de um conjunto discreto.
+Exemplo: Em um ambiente de controle de robô, uma política contínua pode representar as ações de movimento, como velocidades angulares e lineares.
+Aprendizado Profundo por Reforço (Deep Reinforcement Learning):
+
+O que é: A combinação de Aprendizado Profundo (utilizando redes neurais profundas) e Aprendizado por Reforço. Essa abordagem tem sido eficaz em lidar com espaços de estados complexos e grandes.
+Como funciona: O agente aprende uma política através da interação com um ambiente, recebendo recompensas ou penalidades. Redes neurais profundas são usadas para aproximar funções de valor ou políticas, permitindo que o agente generalize para estados não vistos.
+Exemplos de Aplicações:
+Jogos de Vídeo: AlphaGo, que utiliza técnicas de aprendizado profundo por reforço para jogar o jogo de tabuleiro Go de forma excepcional.
+Robótica: Treinamento de robôs para realizar tarefas complexas, como locomoção e manipulação de objetos.
+Ambas as abordagens, Redes Neurais Probabilísticas e Aprendizado por Reforço Avançado, representam avanços significativos no campo de aprendizado de máquina, permitindo a modelagem de incerteza e a tomada de decisões em ambientes complexos e dinâmicos. Essas técnicas têm aplicações em uma variedade de domínios, desde previsão de incerteza em modelos até treinamento de agentes para interagir eficazmente com ambientes complexos.

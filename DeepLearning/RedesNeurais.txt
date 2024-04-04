@@ -1,0 +1,35 @@
+
+O que é uma Rede Neural ?
+
+Uma rede neural é um modelo computacional inspirado na estrutura e funcionamento do cérebro humano. Ela é projetada para realizar tarefas de aprendizado de máquina, como classificação, regressão, reconhecimento de padrões e muito mais. As redes neurais consistem em unidades básicas chamadas neurônios, organizadas em camadas e conectadas por pesos.
+
+Os principais componentes de uma rede neural são:
+
+Neurônios (ou Nodos): São unidades básicas que recebem entradas, aplicam pesos a essas entradas, somam-nas e, em seguida, aplicam uma função de ativação para gerar uma saída.
+
+Camadas: Neurônios são organizados em camadas. A camada de entrada recebe os dados, as camadas ocultas processam esses dados, e a camada de saída produz a resposta final.
+
+Pesos: Cada conexão entre neurônios tem um peso associado. Os pesos são ajustados durante o treinamento para que a rede possa aprender padrões nos dados.
+
+Função de Ativação: Após a soma ponderada das entradas, uma função de ativação é aplicada para introduzir não linearidade na rede. Funções comuns incluem a função sigmoide, a função tangente hiperbólica (tanh) e a função de ativação ReLU (Rectified Linear Unit).
+
+Arquiteturas Específicas: Dependendo da tarefa, diferentes arquiteturas de redes neurais podem ser usadas, como redes feedforward, redes recorrentes, redes convolucionais, entre outras.
+
+Treinamento: O treinamento de uma rede neural envolve ajustar os pesos para minimizar uma função de perda (ou custo), que mede a diferença entre as previsões da rede e os rótulos reais dos dados de treinamento.
+
+As redes neurais têm a capacidade de aprender padrões complexos e representações abstratas dos dados, tornando-as poderosas para lidar com problemas em diversos domínios, como visão computacional, processamento de linguagem natural, reconhecimento de voz, entre outros. Elas desempenharam um papel fundamental no avanço do campo de aprendizado de máquina e inteligência artificial.
+
+1. Perceptron:
+O Perceptron é a unidade básica de uma rede neural. Ele recebe várias entradas, aplica pesos a essas entradas, soma-as e, em seguida, aplica uma função de ativação para produzir uma saída binária (0 ou 1). O treinamento do Perceptron envolve ajustar os pesos com base nos erros de previsão. Embora seja capaz de resolver problemas linearmente separáveis, não pode lidar com tarefas mais complexas.
+
+2. Redes Feedforward:
+Redes Feedforward consistem em camadas de neurônios, onde cada neurônio está conectado a todos os neurônios da camada seguinte. Não há ciclos ou realimentação na rede, e a informação move-se em uma única direção (para frente). Essas redes são organizadas em camadas de entrada, ocultas (opcional) e de saída. As Redes Neural Profundas (Deep Neural Networks - DNNs) são um tipo específico de rede feedforward com múltiplas camadas ocultas.
+
+3. Redes Recorrentes (RNNs):
+As Redes Recorrentes são projetadas para lidar com dados sequenciais ou temporais. Ao contrário das redes feedforward, as RNNs têm conexões que formam ciclos, permitindo que elas mantenham uma "memória" de estados anteriores. Isso as torna eficazes para tarefas como processamento de linguagem natural, reconhecimento de fala e séries temporais. No entanto, treinar RNNs pode ser desafiador devido ao problema de desaparecimento/explodir do gradiente.
+
+4. Redes Convolucionais (CNNs):
+As Redes Convolucionais são projetadas para processar dados que têm uma grade de estrutura, como imagens. Elas consistem em camadas de convolução, pooling e totalmente conectadas. A camada de convolução aplica filtros a regiões locais da entrada, extraindo características relevantes. A camada de pooling reduz a dimensionalidade da representação. As CNNs são amplamente usadas em visão computacional, reconhecimento de padrões e tarefas relacionadas a imagens.
+
+5. Long Short-Term Memory (LSTM) e Gated Recurrent Unit (GRU):
+LSTM e GRU são variantes das RNNs que foram projetadas para superar o problema de desaparecimento/explodir do gradiente. Elas introduzem mecanismos de "portas" que ajudam a controlar o fluxo de informações na rede ao longo do tempo. Essas arquiteturas são frequentemente usadas em tarefas que requerem uma memória mais longa, como tradução automática e geração de texto.

@@ -1,0 +1,31 @@
+O Aprendizado Profundo Bayesiano (Bayesian Deep Learning) combina os princípios do aprendizado profundo com a incerteza probabilística, incorporando conceitos da teoria bayesiana para modelar distribuições de probabilidade sobre parâmetros de rede e previsões. Em vez de fornecer previsões pontuais, os modelos de aprendizado profundo bayesianos fornecem distribuições de probabilidade sobre as previsões, oferecendo uma medida da incerteza associada.
+
+Aqui estão alguns pontos-chave sobre Aprendizado Profundo Bayesiano:
+
+Incorporação de Incerteza:
+
+Ao contrário dos modelos de aprendizado profundo tradicionais que geram previsões determinísticas, os modelos bayesianos incorporam incerteza ao fornecer distribuições de probabilidade sobre os parâmetros e previsões.
+Redes Neurais Bayesianas:
+
+Em um contexto bayesiano, os parâmetros de uma rede neural são tratados como variáveis aleatórias. Em vez de ter pesos fixos, as redes neurais bayesianas têm distribuições de probabilidade associadas a seus pesos.
+
+Inferência Bayesiana:
+O processo de inferência bayesiana envolve atualizar as distribuições de probabilidade dos parâmetros com base nos dados observados. Isso é feito usando o Teorema de Bayes, que relaciona a probabilidade a priori (crenças iniciais) com a probabilidade condicional (dados observados) para obter a probabilidade a posteriori (crenças atualizadas).
+
+Variational Inference:
+Devido à complexidade computacional de calcular distribuições a posteriori exatas em modelos de aprendizado profundo, a variational inference é frequentemente usada. Ela transforma o problema de inferência em um problema de otimização para encontrar uma distribuição de probabilidade aproximada que seja fácil de calcular.
+Aplicações:
+
+Uncertainty Quantification: O Aprendizado Profundo Bayesiano é valioso em situações onde é crucial quantificar e levar em consideração a incerteza associada às previsões. Por exemplo, em medicina, onde diagnósticos precisos e estimativas de incerteza são fundamentais.
+
+Transfer Learning com Incerteza: Em situações em que a tarefa de destino tem um conjunto de dados limitado, a incerteza bayesiana pode ajudar a regularizar o modelo durante o treinamento e a transferir conhecimento de tarefas relacionadas.
+
+Aprendizado Ativo: Pode ser aplicado em situações de aprendizado ativo, onde o modelo é capaz de fazer escolhas informadas sobre quais dados adquirir para treinamento, considerando a incerteza nas previsões.
+
+Desafios:
+
+Complexidade Computacional: O treinamento de modelos de aprendizado profundo bayesianos pode ser computacionalmente intensivo devido à necessidade de amostragem de Monte Carlo para realizar inferência bayesiana.
+
+Interpretabilidade: A interpretabilidade dos modelos bayesianos pode ser um desafio, especialmente em comparação com modelos determinísticos tradicionais.
+
+O Aprendizado Profundo Bayesiano é uma área de pesquisa ativa que busca combinar os benefícios do aprendizado profundo com a capacidade de modelar e quantificar incertezas. Essa abordagem é promissora em domínios nos quais é crucial entender a incerteza associada às previsões do modelo.
