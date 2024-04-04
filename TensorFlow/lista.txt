@@ -1,0 +1,36 @@
+
+Exercícios Básicos de TensorFlow:
+1. Criar um Tensor e Realizar Operações Básicas:
+Crie dois tensores simples em TensorFlow.
+Realize operações básicas de adição, subtração, multiplicação e divisão entre eles.
+
+2. Construir um Modelo Simples:
+Utilize a API de alto nível do TensorFlow (por exemplo, tf.keras) para construir um modelo de rede neural simples com uma ou duas camadas.
+Compile o modelo com uma função de perda e otimizador.
+
+3. Treinar o Modelo:
+Gere dados de treinamento e treine o modelo construído no exercício 2.
+Use a API de treinamento do TensorFlow para iterar sobre os dados e ajustar os pesos do modelo.
+
+4. Salvar e Carregar um Modelo Treinado:
+Salve o modelo treinado em um arquivo.
+Carregue o modelo salvo e faça previsões em novos dados.
+Exercícios Avançados de TensorFlow:
+
+5. Implementar uma Rede Neural Convolucional (CNN):
+Construa uma CNN usando o TensorFlow.
+Utilize camadas convolucionais, de pooling e totalmente conectadas.
+Treine a CNN em um conjunto de dados de imagens.
+
+6. Transfer Learning com TensorFlow:
+Carregue um modelo pré-treinado, como o MobileNetV2 ou ResNet, usando tf.keras.applications.
+Realize transfer learning ajustando o modelo para uma nova tarefa com um conjunto de dados diferente.
+
+7. Treinamento Distribuído com TensorFlow:
+Configure um ambiente de treinamento distribuído usando TensorFlow, por exemplo, usando tf.distribute.MirroredStrategy.
+Treine um modelo em vários dispositivos ou máquinas.
+
+8. Implementar uma Rede Neural Recorrente (RNN):
+Construa uma RNN utilizando a API tf.keras.layers.
+Treine a RNN em dados sequenciais, como séries temporais ou texto.
+Estes exercícios proporcionarão uma variedade de experiências com TensorFlow, desde tarefas básicas até conceitos mais avançados, como CNNs, Transfer Learning e treinamento distribuído. Lembre-se de adaptar os detalhes conforme necessário para atender às suas necessidades e interesses específicos.

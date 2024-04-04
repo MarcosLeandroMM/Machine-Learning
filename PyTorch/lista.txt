@@ -1,0 +1,34 @@
+Exercícios Básicos de PyTorch:
+1. Criar um Tensor e Realizar Operações Básicas:
+Crie dois tensores simples em PyTorch.
+Realize operações básicas de adição, subtração, multiplicação e divisão entre eles.
+
+2. Construir um Modelo Simples:
+Utilize a biblioteca PyTorch para construir um modelo de rede neural simples com uma ou duas camadas.
+Defina uma função de perda e um otimizador.
+
+3. Treinar o Modelo:
+Gere dados de treinamento e treine o modelo construído no exercício 2.
+Use um loop de treinamento padrão para iterar sobre os dados e ajustar os pesos do modelo.
+
+4. Salvar e Carregar um Modelo Treinado:
+Salve o modelo treinado em um arquivo usando torch.save.
+Carregue o modelo salvo e faça previsões em novos dados.
+
+Exercícios Avançados de PyTorch:
+5. Implementar uma Rede Neural Convolucional (CNN):
+Construa uma CNN usando a biblioteca PyTorch.
+Utilize módulos como nn.Conv2d, nn.MaxPool2d e nn.Linear.
+Treine a CNN em um conjunto de dados de imagens.
+
+6. Transfer Learning com PyTorch:
+Carregue um modelo pré-treinado, como o ResNet ou VGG, usando torchvision.models.
+Realize transfer learning ajustando o modelo para uma nova tarefa com um conjunto de dados diferente.
+
+7. Treinamento Distribuído com PyTorch:
+Configure um ambiente de treinamento distribuído usando torch.nn.parallel.DistributedDataParallel.
+Treine um modelo em vários dispositivos ou máquinas.
+
+8. Implementar uma Rede Neural Recorrente (RNN):
+Construa uma RNN utilizando módulos como nn.RNN ou nn.LSTM.
+Treine a RNN em dados sequenciais, como séries temporais ou texto.
