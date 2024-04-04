@@ -1,0 +1,22 @@
+K-Fold Cross Validation:
+
+O que é: A validação cruzada K-Fold é uma técnica usada para avaliar a performance de um modelo e reduzir a variância do estimador de desempenho.
+Como funciona: O conjunto de dados é dividido em K partes (dobras ou folds) de tamanho aproximadamente igual. O modelo é treinado em K-1 folds e testado no fold restante. Esse processo é repetido K vezes, cada vez usando um fold diferente como conjunto de teste. Ao final, a performance é a média das métricas de desempenho calculadas em cada iteração.
+Vantagens: Oferece uma avaliação mais robusta do desempenho do modelo, especialmente quando o conjunto de dados é limitado.
+
+
+Grid Search e Random Search para Otimização de Hiperparâmetros:
+Grid Search:
+O que é: Uma abordagem sistemática para encontrar os melhores hiperparâmetros, testando todas as combinações possíveis em uma grade predefinida.
+Como funciona: Define uma grade de hiperparâmetros com valores específicos para cada hiperparâmetro. O modelo é treinado e avaliado para cada combinação de hiperparâmetros na grade. A combinação que resulta no melhor desempenho é escolhida.
+Vantagens: Garante uma busca exaustiva e sistemática, identificando a melhor combinação de hiperparâmetros.
+
+Random Search:
+O que é: Uma abordagem mais eficiente em termos computacionais que explora aleatoriamente o espaço de hiperparâmetros.
+Como funciona: Em vez de testar todas as combinações, o Random Search amostra aleatoriamente diferentes conjuntos de hiperparâmetros. Essa abordagem pode ser mais eficaz, especialmente quando o espaço de busca é grande.
+Vantagens: Pode ser mais eficiente do que o Grid Search, pois explora uma variedade de combinações de hiperparâmetros sem testar todas.
+
+Exemplos:
+K-Fold Cross Validation: Dividir um conjunto de dados de classificação em 5 folds, treinar um modelo de classificação em 4 folds e testar no 5º fold. Repetir esse processo cinco vezes, avaliando a média das métricas de desempenho.
+Grid Search: Testar diferentes valores de taxa de aprendizado, número de árvores e profundidade máxima para um modelo de Random Forest, escolhendo a combinação que maximiza a precisão em um conjunto de validação.
+Random Search: Amostrar aleatoriamente diferentes valores de regularização, taxa de aprendizado e número de neurônios em uma rede neural, identificando a combinação que otimiza a métrica desejada.

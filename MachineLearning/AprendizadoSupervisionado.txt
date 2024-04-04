@@ -1,0 +1,15 @@
+1. Regressão e Classificação:
+Regressão: É usada quando a variável alvo (saída) é contínua. O objetivo é prever um valor numérico. Exemplos incluem prever o preço de uma casa, a temperatura, etc.
+
+Classificação: É utilizada quando a variável alvo é categórica, ou seja, pertence a um conjunto discreto de classes. O objetivo é atribuir uma classe a uma instância. Exemplos incluem identificar spam em emails (duas classes: spam ou não spam) ou reconhecimento de dígitos manuscritos (dez classes: 0 a 9).
+
+2. Funções de Perda (Loss Functions):
+As funções de perda medem o quão bem o modelo está realizando em termos de prever a saída correta. Para tarefas de regressão, uma função comum é a Mean Squared Error (MSE), enquanto para classificação, a Cross-Entropy Loss é frequentemente utilizada. Essas funções são minimizadas durante o treinamento do modelo.
+
+3. Métricas que quantificam o desempenho do modelo:
+Regressão: Métricas comuns incluem Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared (coeficiente de determinação).
+
+Classificação: Métricas incluem precisão, recall, F1-score, matriz de confusão, área sob a curva ROC (Receiver Operating Characteristic), entre outras, dependendo do problema.
+
+4. Regularização:
+Regularização L1 e L2: São técnicas para evitar overfitting, que ocorre quando o modelo se ajusta demais aos dados de treinamento e não generaliza bem para novos dados. L1 adiciona a soma dos valores absolutos dos coeficientes ao custo da função de perda, enquanto L2 adiciona a soma dos quadrados dos coeficientes. Ambas ajudam a penalizar modelos muito complexos.

@@ -1,0 +1,49 @@
+Avaliação de Desempenho:
+
+A avaliação do desempenho de um modelo é crucial para entender como ele se sairá em dados não vistos. Algumas métricas comuns de avaliação para problemas de classificação (como é o caso das árvores de decisão) incluem:
+
+Acurácia (Accuracy):
+A proporção de predições corretas em relação ao total de predições.
+
+Precisão (Precision):
+A proporção de verdadeiros positivos em relação ao total de positivos previstos. Indica a precisão das predições positivas.
+
+Revocação (Recall ou Sensibilidade):
+A proporção de verdadeiros positivos em relação ao total de positivos reais. Indica a capacidade do modelo de capturar todos os casos positivos.
+
+F1-Score:
+A média harmônica entre precisão e revocação. Útil quando há desequilíbrio entre as classes.
+
+Matriz de Confusão:
+Uma tabela que mostra a distribuição dos resultados das predições, comparando-as com os valores reais.
+
+Predição (ou Predição de Classe):
+A saída do modelo, indicando a classe prevista para uma determinada instância de entrada. Em problemas de classificação binária, as predições geralmente são rotuladas como positivas ou negativas.
+
+Predições Positivas:
+Instâncias para as quais o modelo previu a classe positiva.
+
+Verdadeiros Positivos (True Positives - TP):
+Instâncias que são positivas na verdade e foram corretamente previstas como positivas pelo modelo.
+
+Positivos Previstos (Total Positives Predicted):
+O número total de instâncias para as quais o modelo previu a classe positiva (incluindo verdadeiros positivos e falsos positivos).
+
+Positivos Reais (Total Real Positives):
+O número total de instâncias que são realmente positivas.
+
+Média Harmônica (F1-Score):
+É uma média ponderada entre precisão e revocação (recall).
+É útil quando há desequilíbrio entre classes.
+
+Precisão (Precision):
+A proporção de verdadeiros positivos em relação ao total de positivos previstos.
+
+Revocação (Recall ou Sensibilidade):
+A proporção de verdadeiros positivos em relação ao total de positivos reais.
+​
+Classes:
+As categorias ou rótulos em um problema de classificação. Em um problema de classificação binária, há duas classes: positiva e negativa. Em problemas de classificação multiclasse, pode haver mais de duas classes.
+
+Desequilíbrio entre Classes:
+Refere-se à situação em que o número de instâncias em diferentes classes é significativamente desigual. Isso pode impactar a avaliação do modelo, pois métricas como acurácia podem ser enganosas em conjuntos de dados desequilibrados.

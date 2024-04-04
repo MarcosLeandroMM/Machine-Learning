@@ -1,0 +1,30 @@
+Ensemble refere-se a uma técnica de aprendizado de máquina que combina as previsões de vários modelos individuais para obter um modelo mais robusto e geralmente melhor desempenho preditivo do que os modelos individuais. O objetivo do ensemble é aproveitar as forças de diferentes modelos e compensar suas fraquezas, melhorando assim a capacidade de generalização.
+
+Existem várias técnicas de ensemble, sendo duas das mais comuns:
+
+Bagging (Bootstrap Aggregating):
+
+Objetivo: Reduzir a variância.
+Como funciona: Cria várias instâncias do mesmo modelo de base, cada uma treinada em uma amostra bootstrap (amostra com reposição) do conjunto de dados de treinamento. As previsões são agregadas por média (em modelos de regressão) ou votação (em modelos de classificação).
+Exemplo notável: Random Forest, que é um ensemble de árvores de decisão treinadas em amostras bootstrap.
+Boosting:
+
+Objetivo: Reduzir o viés e focar em exemplos difíceis.
+Como funciona: Treina modelos sequencialmente, dando mais peso aos exemplos que foram classificados incorretamente pelos modelos anteriores. Cada modelo subsequente tenta corrigir os erros do modelo anterior.
+Exemplos notáveis: AdaBoost, Gradient Boosting (como XGBoost, LightGBM).
+Principais Benefícios dos Ensembles:
+
+Melhor Desempenho Geral: Os ensembles geralmente superam os modelos individuais, especialmente quando os modelos individuais são diversos em termos de arquitetura ou abordagem.
+
+Redução de Overfitting: Ensembles, especialmente aqueles baseados em bagging, têm menos probabilidade de sofrer com overfitting porque as previsões são médias ou votadas, o que ajuda a suavizar as irregularidades presentes em modelos individuais.
+
+Lidar com Dados Desbalanceados: Pode ajudar a melhorar o desempenho em conjuntos de dados desbalanceados, pois os modelos individuais podem se especializar em diferentes áreas do espaço de recursos.
+
+Robustez: Ensembles são geralmente mais robustos em comparação com modelos individuais, pois são menos sensíveis a outliers e variações nos dados.
+
+No entanto, é importante notar que a escolha do tipo específico de ensemble e seus hiperparâmetros depende do problema específico e dos dados em questão. Cada técnica de ensemble tem suas próprias características e cenários ideais de aplicação.
+
+
+
+
+

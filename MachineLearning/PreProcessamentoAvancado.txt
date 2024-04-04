@@ -1,0 +1,72 @@
+Tratamento de Dados Ausentes:
+Além de preenchimento simples, considere estratégias mais avançadas, como imputação usando modelos preditivos.
+Entenda a natureza dos dados ausentes e se há um padrão sistemático.
+
+Codificação de Variáveis Categóricas:
+Além da codificação one-hot (dummy encoding), explore técnicas como codificação ordinal e target encoding.
+Considere como lidar com categorias raras para evitar overfitting.
+
+Detecção e Tratamento de Outliers:
+Utilize técnicas estatísticas ou modelos para identificar e lidar com outliers.
+Ponderar se os outliers devem ser removidos, transformados ou mantidos dependendo do contexto.
+
+Feature Engineering:
+Crie novas variáveis que podem conter informações úteis para o modelo.
+Experimente técnicas como criação de interações, polinômios, e extração de características de texto ou data.
+
+Normalização vs. Padronização:
+Entenda a diferença entre normalização (escalonamento para [0, 1]) e padronização (escalonamento para média 0, desvio padrão 1).
+Escolha a técnica com base nas características do modelo.
+
+Redução de Dimensionalidade:
+Use técnicas como Análise de Componentes Principais (PCA) para reduzir a dimensionalidade.
+Avalie o trade-off entre perda de informação e ganho computacional.
+
+Transformação Logarítmica:
+Aplique transformações logarítmicas em variáveis assimétricas para aproximá-las de uma distribuição normal.
+Isso é especialmente útil ao lidar com variáveis altamente enviesadas.
+
+Engenharia de Sinais e Texto:
+Ao lidar com dados de áudio, imagem ou texto, considere técnicas específicas para cada tipo, como extração de características de áudio, processamento de imagem ou vetorização de texto.
+
+Validação Cruzada:
+Utilize técnicas de validação cruzada para avaliar o desempenho do modelo de maneira mais robusta.
+Compreenda diferentes métodos de validação cruzada, como K-Fold e Leave-One-Out.
+
+Otimização de Hiperparâmetros:
+Utilize técnicas de otimização de hiperparâmetros, como pesquisa em grade e busca aleatória, para ajustar os modelos.
+Considere a aplicação de métodos mais avançados, como otimização bayesiana.
+
+Monitoramento de Modelos em Produção:
+Desenvolva práticas para monitorar e avaliar continuamente modelos em ambientes de produção.
+Implemente estratégias de re-treinamento conforme necessário.
+
+Interpretabilidade de Modelos:
+Entenda e comunique a interpretabilidade dos modelos, especialmente em contextos onde é importante compreender as decisões do modelo.
+
+
+
+Trade-off:
+
+Definição: Trade-off refere-se à situação em que você tem que equilibrar dois ou mais fatores que estão em oposição um ao outro. Fazer uma escolha favorável a um desses fatores geralmente implica em sacrificar algum aspecto relacionado ao outro.
+Exemplo em Análise de Dados: Um exemplo de trade-off pode ser encontrado no ajuste de modelos preditivos. Às vezes, modelos mais complexos podem se ajustar melhor aos dados de treinamento, mas correm o risco de serem excessivamente sensíveis e não generalizarem bem para novos dados (overfitting).
+Outliers:
+
+Definição: Outliers são pontos de dados que se desviam significativamente do padrão geral do conjunto de dados. Eles são valores atípicos que podem distorcer análises estatísticas e modelos preditivos.
+Exemplo em Análise de Dados: Se você estiver analisando salários em uma empresa e a maioria dos funcionários ganha entre $30.000 e $70.000 por ano, um salário de $1.000.000 pode ser considerado um outlier.
+Codificação Ordinal:
+
+Definição: Codificação ordinal é uma técnica de atribuir rótulos numéricos a variáveis categóricas ordinais. Isso é feito de forma que a ordem entre as categorias seja preservada na codificação.
+Exemplo em Análise de Dados: Se tivermos uma variável categórica ordinal como "baixo", "médio" e "alto", a codificação ordinal pode atribuir valores como 1, 2 e 3, respectivamente.
+
+Target Encoding (Codificação de Alvo):
+Definição: Target encoding é uma técnica de codificação em que os valores de uma variável categórica são substituídos pela média da variável de destino correspondente (o "target") para aquela categoria.
+Exemplo em Análise de Dados: Se tivermos uma variável categórica representando diferentes categorias de produtos e nosso alvo for a quantidade vendida, o target encoding substituiria os rótulos categóricos pela média de vendas para cada categoria.
+
+Esses conceitos são fundamentais para a compreensão e manipulação de dados em projetos de análise de dados. Ao aplicar técnicas como codificação ordinal e target encoding, é possível preparar os dados de maneira eficiente para a construção e treinamento de modelos preditivos. Ao mesmo tempo, é importante lidar adequadamente com outliers e entender os trade-offs envolvidos em decisões analíticas.
+
+
+
+
+
+

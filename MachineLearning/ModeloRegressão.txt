@@ -1,0 +1,13 @@
+A regressão é um método estatístico que tem como objetivo modelar a relação entre uma variável dependente (ou resposta) e uma ou mais variáveis independentes (ou preditoras). O modelo de regressão é utilizado para entender o padrão ou tendência nos dados, fazer previsões e inferências sobre o relacionamento entre variáveis.
+
+A regressão linear, em particular, é um tipo comum de modelo de regressão usado quando se tenta prever uma variável contínua (como preço, temperatura, etc.) com base em uma ou mais variáveis independentes.
+
+A importância da regressão reside no fato de que ela oferece uma maneira sistemática de entender a relação entre variáveis e, assim, fazer previsões ou inferências. Isso é especialmente útil em situações onde você deseja entender como uma variável muda em resposta a mudanças em outras variáveis.
+
+Quanto à questão de treinar modelos apenas com números, é um aspecto fundamental dos modelos de machine learning, incluindo modelos de regressão. Modelos de machine learning, como a regressão linear, operam com dados numéricos para aprender padrões e fazer previsões.
+
+Se uma base de dados contém variáveis categóricas (strings que representam categorias, por exemplo), é necessário converter essas variáveis em um formato numérico antes de alimentar o modelo. A codificação one-hot, que cria variáveis dummy binárias para cada categoria, é um exemplo comum desse processo.
+
+Então, mesmo que a base de dados inicial contenha strings, com o devido pré-processamento, é possível torná-la adequada para treinar modelos de regressão. O pré-processamento envolve transformar variáveis categóricas em um formato numérico, lidar com valores ausentes, normalizar dados, entre outras tarefas.
+
+Em resumo, a regressão é uma ferramenta poderosa para entender relações entre variáveis e fazer previsões, mas é necessário preparar os dados adequadamente, incluindo a conversão de variáveis categóricas em um formato numérico, antes de alimentar o modelo.

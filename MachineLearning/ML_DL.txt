@@ -1,0 +1,51 @@
+Áreas Fundamentais:
+
+Álgebra Linear e Cálculo: Elementos fundamentais para entender a matemática por trás dos modelos ML e DL.
+Estatísticas: Conceitos estatísticos são cruciais para entender a teoria por trás dos algoritmos e avaliar o desempenho dos modelos.
+
+
+Aprendizado Supervisionado:
+
+Regressão e Classificação: Compreensão de como treinar modelos para prever valores contínuos ou classes discretas.
+Funções de Perda (Loss Functions): Métricas que quantificam o quão bem o modelo está performando.
+Regularização: Técnicas como L1 e L2 para evitar overfitting.
+
+
+Aprendizado Não Supervisionado:
+
+Agrupamento (Clustering): Técnicas para identificar padrões e agrupar dados sem rótulos.
+Redução de Dimensionalidade: Técnicas como PCA para reduzir a complexidade dos dados.
+
+
+Redes Neurais e Deep Learning:
+
+Arquiteturas de Redes Neurais: Perceptron, Redes Feedforward, Redes Recorrentes (RNNs), Redes Convolucionais (CNNs), etc.
+Backpropagation: Algoritmo fundamental para treinar redes neurais.
+Transfer Learning: Utilização de modelos pré-treinados para tarefas específicas.
+Frameworks de Deep Learning: TensorFlow, Keras, PyTorch, entre outros.
+Processamento de Linguagem Natural (PNL):
+
+Tokenização e Pré-processamento: Quebra de texto em unidades (tokens) e preparação para modelagem.
+Word Embeddings: Representação vetorial de palavras (Word2Vec, GloVe, FastText).
+Redes Neurais Recorrentes (RNNs) e Redes Neurais de Transformadores (BERT, GPT): Para tarefas de sequência.
+
+Visão Computacional:
+Convoluções e Filtros: Conceitos-chave para entender CNNs.
+Transfer Learning em Visão Computacional: Utilização de modelos pré-treinados para tarefas específicas de visão.
+
+Avaliação de Modelos:
+Métricas de Avaliação: Precisão, recall, F1-score, curva ROC, área sob a curva ROC, etc.
+Validação Cruzada: Técnica para avaliar o desempenho do modelo.
+Otimização de Modelos:
+
+Hiperparâmetros: Parâmetros do modelo ajustáveis externamente.
+Busca de Grade e Aleatória: Métodos para otimizar hiperparâmetros.
+Ética em ML e DL:
+
+Bias e Fairness: Considerações importantes para evitar viés em modelos.
+Interpretabilidade: Compreender como modelos tomam decisões.
+
+Ferramentas e Tecnologias:
+Jupyter Notebooks: Ambiente interativo popular para desenvolver e documentar código.
+Scikit-Learn: Biblioteca Python para aprendizado de máquina.
+TensorFlow e PyTorch: Frameworks populares para deep learning.
