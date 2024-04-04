@@ -1,0 +1,36 @@
+Classificação com SVM (Support Vector Machines):
+
+Use o conjunto de dados Iris ou outro conjunto de dados adequado.
+Experimente diferentes kernels (linear, polinomial, RBF) e otimize os parâmetros.
+Regressão com Regressão Logística:
+
+Utilize um conjunto de dados de regressão, como o conjunto de dados Boston Housing.
+Ajuste um modelo de regressão logística e otimize os parâmetros.
+Redes Neurais com MLP (Perceptron de Múltiplas Camadas):
+
+Aplique MLP para um conjunto de dados complexo, como o MNIST.
+Ajuste a arquitetura da rede e otimize os hiperparâmetros.
+Agrupamento Hierárquico:
+
+Utilize um conjunto de dados apropriado para o agrupamento hierárquico.
+Experimente diferentes métodos de ligação e visualize dendrogramas.
+Validação Cruzada:
+
+Implemente a validação cruzada k-fold em um modelo de sua escolha.
+Compare os resultados com a validação holdout.
+Ensemble Learning com Random Forest:
+
+Aplique o Random Forest a um conjunto de dados, otimizando o número de árvores e outros parâmetros.
+Aprendizado Não Supervisionado com PCA (Análise de Componentes Principais):
+
+Aplique PCA para redução de dimensionalidade em um conjunto de dados.
+Visualize a variação explicada pelos componentes principais.
+Otimização de Hiperparâmetros com Grid Search:
+
+Utilize Grid Search para encontrar os melhores hiperparâmetros para um modelo específico.
+Avaliação de Desempenho com Curvas ROC e AUC:
+
+Utilize métricas de avaliação de desempenho, como curvas ROC e AUC, para um modelo de classificação.
+Análise de Sentimento com NLP:
+
+Aplique técnicas de pré-processamento de texto e use um modelo de classificação para análise de sentimento.
